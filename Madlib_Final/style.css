@@ -98,8 +98,12 @@ hr {
 	
 #web, #lorem {
 	font-size: 120%;
+}
+
+#about-to-witness, #lorem, *[hidden] {
 	display: none;
 }
+
 	
 #lorem {
 	margin-left: 5rem;
