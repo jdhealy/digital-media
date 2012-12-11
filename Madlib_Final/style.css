@@ -115,3 +115,4 @@ hr {
 }
 
 footer { text-align: center; }
+footer:hover { text-decoration: underline; }
