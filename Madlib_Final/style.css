@@ -98,6 +98,7 @@ hr {
 	
 #web, #lorem {
 	font-size: 120%;
+	display: none;
 }
 	
 #lorem {
@@ -108,3 +109,4 @@ hr {
 	margin: 0 auto;
 	display: block;
 }
+
