@@ -1,0 +1,110 @@
+h1 { text-align: center; font-size: 300%; margin: 3rem; }
+	
+body {
+	background: #EEE;
+	padding: 0 0.5rem;
+}
+	
+body, button, input, #lorem {
+	font-family:  "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+	
+.thing {
+	padding: 1rem;
+	text-align: center;
+}
+	
+input.one-syllable   { width:  7rem; }
+input.two-syllable   { width: 10rem; }
+input.three-syllable { width: 15rem; }
+input.four-syllable  { width: 20rem; }
+input.five-syllable  { width: 25rem; }
+	
+input {
+	padding: 0.5rem;
+	font-size: 150%; /* Get rid of this when smaller than 480px */
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+	
+label {
+	text-align: center;
+	display: inline-block;
+	padding: 1rem 2rem;
+}
+	
+label:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+	
+label span {
+	display: inline-block;
+	clear: both;
+	margin-top: 0.5em;
+	padding-top: 0.25em;
+	border-top: 1px solid #999;
+}
+	
+button[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+		
+	display: block;
+	font-size: 2em;
+	width: 75%;
+	background: white;
+	border-radius: 0.25em;
+	padding: 0.5em;
+	margin: 3rem auto;
+}
+	
+hr {
+	display: block;
+	background: #AAA;
+	border: 0;
+	height: 1px;
+	margin: 3rem 10rem;
+}
+	
+#about-to-witness h2 {
+	color: #333;
+	font-size: 4em;
+	max-width: 40rem;
+	margin: 0 auto;
+	font-weight: 300;
+}
+	
+#web {
+	position: absolute;
+	color: rgba(230, 0, 0, 1);
+	margin-left: -2.25em;
+	margin-top: -0.125em;
+	font-weight: bold;
+	vertical-align: text-bottom;
+	text-shadow: black 1px 1px 1px, white 1px 1px 5px, white 1px 1px 10px;
+		
+	     transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg);
+ -webkit-transform:rotate(-15deg);
+	 -ms-transform:rotate(-15deg);
+		
+}
+	
+#web, #lorem {
+	font-size: 120%;
+}
+	
+#lorem {
+	margin-left: 5rem;
+}
+	
+#youtube * {
+	margin: 0 auto;
+	display: block;
+}
