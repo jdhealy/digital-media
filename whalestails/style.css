@@ -1,0 +1,16 @@
+body {
+	background: #666;
+	color: #FFF;
+				
+	/* For my own sanity */
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, "MS Trebuchet", sans-serif;
+}
+			
+h1 {
+	font: 36 Verdana, Geneva, sans-serif;
+}
+			
+a         { color: #3CF; }
+a:hover   { color: #0C9; }
+a:visited { color: #CCC; }
+a:active  { color: #3CF; }

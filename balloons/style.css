@@ -1,0 +1,64 @@
+html {
+	background: -webkit-linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	background: -moz-linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	background: linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	background-repeat: no-repeat;
+}
+
+/* WebKit fix */
+* {	-webkit-margin-before: 0; -webkit-margin-after: 0; }
+
+body {
+	
+	color: #2C2C2C;
+	padding: 3rem;
+				
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, "MS Trebuchet", sans-serif;
+	
+}
+			
+h1 {
+	font-size: 5rem;
+	color: white;
+	text-shadow: 0.3rem 0.3rem 0.1rem #2C2C2C, 0.6rem 0.6rem 0 rgba(255, 255, 255, 0.5);
+}
+
+figure, figure img {
+	display: table;
+	background: rgba(0, 0, 0, 0.25);
+	margin: 0 0 1rem 1rem;
+	border: 0.5rem solid white;
+	padding: 2rem;
+	border-radius: 1rem;
+}                      
+			            
+
+a, a#next_page:visited, 
+a#previous_page:visited, 
+a#home_page:visited { 
+	color: #2C2C2C; 
+}
+
+a:visited { color: #CCC; }
+
+a:hover, 
+a#next_page:visited:hover,
+a#previous_page:visited:hover,
+a#home_page:visited:hover { 
+	color: #CCC; 
+}
+
+a:active  { color: #3CF; }
+                        
+#next_page, #previous_page , #home_page { 
+	font-weight: bold;
+	font-size: 1.5rem;
+	
+	display: inline-block;
+	padding: 1rem;      
+	background: -webkit-linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	background: -moz-linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	background: linear-gradient(#CCC2FD, #F8FDFC), #F8FDFC;
+	border: 0.5rem solid white;
+	border-radius: 1rem;
+}

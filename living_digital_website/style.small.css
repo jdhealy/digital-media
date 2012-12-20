@@ -1,0 +1,15 @@
+#container { margin: 0.1rem }
+			
+h1 { margin: 0 0 0.2em 0; }
+						
+nav ul li {
+	display: block;
+	white-space: normal;
+	line-height: 2em;
+				
+	/* For very long inner text */
+	text-indent: -2rem;
+	margin-left: 3rem;
+}
+			
+p, footer { margin: 0; }
